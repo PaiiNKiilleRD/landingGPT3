@@ -1,0 +1,37 @@
+---
+// interface Props {
+//   title: string;
+// }
+// const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head
+    ><!--  -->
+    <script
+      src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"
+    ></script>
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Title</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style>
+  * {
+    @apply text-[#f6f6f6] font-manrope;
+  }
+</style>

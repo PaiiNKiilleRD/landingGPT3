@@ -1,0 +1,21 @@
+---
+import Layout from "../layout/layout.astro";
+
+import { Navbar, Hero, Features, Footer, Blog, AboutGP3 } from "@/sections";
+import { Brand, CTA } from "@/components";
+---
+
+<Layout>
+  <Navbar client:only="react" />
+  <Hero />
+  <Brand client:load />
+
+  <AboutGP3 />
+  <Features />
+  <!--
+  <Blog />
+  <CTA />
+  <Footer /> -->
+</Layout>
+
+<style></style>
