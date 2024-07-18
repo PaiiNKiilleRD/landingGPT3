@@ -18,7 +18,7 @@ const hero = () => {
       {/*  */}
       <div className="container flex flex-col items-center justify-center w-full lg:flex-row lg:gap-x-8">
         <article className="flex  z-[1] flex-col items-center lg:w-[50%] justify-center text-left  md:gap-y-8 gap-6">
-          <h1 className="text-5xl font-bold leading-snug text-transparent lg:text-6xl bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+          <h1 className="text-5xl font-bold tracking-tight text-transparent lg:text-6xl bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
             Let’s Build Something amazing with GPT-3 OpenAI
           </h1>
           <p className=" md:text-xl opacity-80">
