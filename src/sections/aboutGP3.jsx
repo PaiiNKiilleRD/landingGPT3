@@ -9,12 +9,14 @@ const aboutGP3 = () => {
   return (
     <section
       id="wgpt3"
-      className="flex items-center justify-center w-full bg-gray-500 lg:h-screen"
-      style={bg}
+      className="flex items-center justify-center w-full px-4 lg:px-0 lg:h-screen"
     >
-      <div className="container flex flex-col justify-center gap-24 py-10 ">
+      <div
+        className="container flex flex-col justify-center gap-24 py-10 lg:px-12"
+        style={bg}
+      >
         <Feature
-          classList="md:flex-row gap-24"
+          classList="md:flex-row md:gap-24 flex-col gap-4 "
           title="What is GPT-3"
           text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
         />
@@ -29,14 +31,17 @@ const aboutGP3 = () => {
         </article>
         <article className="flex flex-col items-center justify-center gap-10 md:items-start md:flex-row">
           <Feature
+            classList="flex-col"
             title="Chatbots"
             text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
           />
           <Feature
+            classList="flex-col"
             title="Knowledgebase"
             text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
           />
           <Feature
+            classList="flex-col"
             title="Education"
             text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
           />

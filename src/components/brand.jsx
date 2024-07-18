@@ -10,7 +10,7 @@ import React from "react";
 
 const brand = () => {
   return (
-    <section className="bg-[#101010]">
+    <section className="">
       <article className=" flex flex-wrap items-center justify-center [&>div]:flex-1 [&>div]:max-w-[150px] [&>div]:min-w-[120px] md:gap-x-6 lg:gap-x-10 text-slate-500">
         <div className="flex items-center justify-center ">
           <iconify-icon

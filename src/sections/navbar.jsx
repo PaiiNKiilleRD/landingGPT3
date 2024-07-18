@@ -44,7 +44,7 @@ const navbar = () => {
           })}
         </ul>
         {/*  */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <button className="px-12 py-4 font-medium">
             <a href="#">Sign in</a>
           </button>
@@ -53,7 +53,7 @@ const navbar = () => {
           </button>
         </div>
         {/* Side Menu */}
-        <div className="block" onClick={() => setOpenMenu(!openMenu)}>
+        <div className="block lg:hidden" onClick={() => setOpenMenu(!openMenu)}>
           {openMenu ? (
             <iconify-icon
               icon="line-md:menu-to-close-alt-transition"
