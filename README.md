@@ -1,2 +1,4 @@
-# REVISAR PADDINGS O MMARGENES DE LAS SECCIONES
+# GPT3 LANDING
+
+https://paiinkiillerd.github.io/landingGPT3/
 
