@@ -7,7 +7,7 @@ const blog = () => {
     <section className="py-10 ">
       <div className="container flex flex-col ">
         <div className="w-full">
-          <h2 className="w-full my-20 text-4xl font-bold tracking-tighter text-left text-black lg:text-6xl">
+          <h2 className="w-full text-white my-20 text-4xl font-bold tracking-tighter text-left lg:text-6xl">
             A lot is happening, We are blogging about it.
           </h2>
         </div>

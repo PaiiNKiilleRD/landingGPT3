@@ -28,7 +28,7 @@ const links = [
 const navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className="fixed top-0 right-0 z-10 w-full py-5 bg-transparent font-manrope ">
+    <nav className="fixed backdrop-blur-sm top-0 right-0 z-10 w-full py-5 bg-transparent font-manrope ">
       <div className="container flex items-center justify-between ">
         <img src={logo.src} alt="Logo" width={63} height={16} />
         {/*  */}
